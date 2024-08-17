@@ -1,0 +1,41 @@
+# Gradle files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+local.properties
+
+# Log files
+*.log
+
+# Android Studio files
+.idea/
+*.iml
+*.hprof
+
+# Android build artifacts
+*.apk
+*.ap_
+
+# Android generated files
+android/build/
+android/.gradle/
+android/app/build/
+
+# Node.js (if using Node.js for any part of your project)
+node_modules/
+
+# Misc
+*.DS_Store
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Keystore files (if using for signing your app)
+*.jks
+*.keystore
+
+# Ignore any generated files
+generated/
